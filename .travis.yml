@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.2.4
+  - 2.3.0
+script: bundle exec rspec
+cache: bundler
+gemfile:
+  - Gemfile
+  - gemfiles/rails42.gemfile
+  - gemfiles/rails5beta.gemfile
